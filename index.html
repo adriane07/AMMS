@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE ADMINISTRATIVE LAYOUT</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex-justify-content-between-p-4">
+                <div class="sidebar-logo">
+                    <a href="#">AMMS</a>
+                </div>
+                <!-- <button class="toggle-btn border-0" type="button">
+                    <i id="icon" class="bx bxs-chevrons-right"></i>
+                </button> --> 
+            </div>
+            <ul class="sidebar-nav">
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="bx bxs-user-square"></i>
+                        <span class="hovers">Profile</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="growth.html" class="sidebar-link">
+                        <i class="bx bxs-layer"></i>
+                        <span>Growth</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="auth.html" class="sidebar-link collapsed has drop-down"data-bs-toggle="collapse" data-bs-target="#auth" 
+                    aria-expanded="false" aria-controls="auth">
+                <i class="bx bxs-bug-alt"></i>
+            <span>Auth</span>
+            </a>
+            <ul id="author" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="bx bx-bell-ring"></i>
+                        Login
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        Register
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has drop-down"data-bs-toggle="collapse" data-bs-target="#multi" 
+                    aria-expanded="false" aria-controls="multi">
+                <i class="bx bxs-bar-chart-alt-2"></i>
+            <span>Multi Level</span>
+            </a>
+            <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                <li class="sidebar-item">
+                      <a href="#" class="sidebar-link collapsed has drop-down"data-bs-toggle="collapse" data-bs-target="#multi-two" 
+                    aria-expanded="false" aria-controls="multi-two">
+                    Two Links
+            </a>
+            <ul id="multi-two" class="sidebar-dropdown list-unstyled collapse">
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">Link 1</a>
+                </li>
+                 <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">Link 2`</a>
+                </li>
+            </ul>
+                </li>
+            </ul>
+                </li>
+            </ul>
+                </li>
+                <li class="slidebar-item-notification">
+                    
+                </li>
+                 <li id="map.html" class="slidebar-item-settings">
+                    <a href="#" class="" class="sidebar-link">
+                       <i class="bx bx-cog"></i>
+                        <span class="settings">Map</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="bx bx-arrow-in-left-square-half"></i>
+                    <span class="slidebar-item-text">Logout</span>
+                </a>
+            </div>
+        </aside>
+        <div class="main">
+            <nav class="navbar navbar-expand px-4 py-3">
+                <form action="#" class="d-none d-sm inline-block">
+                    <div class="input-group input-group-navbar">
+                        <input type="text class" class="form-control border- O rounded-O pe-O"
+                        placeholder="Search..." aria-label="Search">
+                        <button class="btn order-O rounded-O" type="button">
+                            <i class="bx bx-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item-dropdown">
+                            <a href="#" data-bs-toggle="dropdown" class="nav-icon pe-md-O">
+                               <img src="/PIRATES.jpg" class="avatar img-fluid" alt="">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end rounded-O border-O shadow mt-3">
+                                <a href="#" class="dropdown-item">
+                                    <i class="bx bx-database"></i>
+                                    <span>Analytics</span>
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    <i class="bx bx-cog"></i>
+                                    <span>Setting</span>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a href="#" class="dropdown-item">
+                                    <i class="bx bx-help-circle"></i>
+                                    <span>Help Center</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+ 
+            
+               <div class="main-content">
+                <header>
+                    <div class="color">
+                        <label for="">
+                            <span class="las la"></span>
+                        </label>
+                        <div class="column">
+                            <h1>Analytics</h1>
+                            <p>Get the latest update</p>
+                        </div>
+                    </div>
+                </header>
+               </div>
+
+               <div class="data">
+
+                 <div class="analytics">
+                  <h3>Growth</h3>
+                    <div class="card">
+                         <h6>1st year growth</h6>
+                         <div class="ellipse">
+                            <div class="outer">
+                                <div id="number">
+                                   65%
+                                </div>
+                            </div>
+                         </div>
+                          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                                <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#563ad5" />
+                                <stop offset="100%" stop-color="#0c146e" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="40" cy="65" r="30" stroke-linecap="round" />
+                    </svg>
+                    </div>
+                 </div>
+
+                 
+                 <div class="analytics">
+                  <h3>Lost</h3>
+                    <div class="card">
+                         <h6>1st year Lost</h6>
+                         <div class="ellipse">
+                            <div class="outer">
+                                <div id="number">
+                                   65%
+                                </div>
+                            </div>
+                         </div>
+                          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                                <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#563ad5" />
+                                <stop offset="100%" stop-color="#0c146e" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="40" cy="65" r="30" stroke-linecap="round" />
+                    </svg>
+                    </div>
+                 </div>
+
+                 <div class="analytics">
+                  <h3>Sale</h3>
+                    <div class="card">
+                         <h6>Analytics</h6>
+                         <div class="ellipse">
+                            <div class="outer">
+                                <div id="number">
+                                   65%
+                                </div>
+                            </div>
+                         </div>
+                          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                                <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#563ad5" />
+                                <stop offset="100%" stop-color="#0c146e" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="40" cy="65" r="30" stroke-linecap="round" />
+                    </svg>
+                    </div>
+                 </div>
+
+                  <div class="analytics">
+                  <h3>Revenue</h3>
+                    <div class="card">
+                         <h6>Total</h6>
+                         <div class="ellipse">
+                            <div class="outer">
+                                <div id="number">
+                                   65%
+                                </div>
+                            </div>
+                         </div>
+                          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                                <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#563ad5" />
+                                <stop offset="100%" stop-color="#0c146e" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="40" cy="65" r="30" stroke-linecap="round" />
+                    </svg>
+                    </div>
+                 </div>
+                 
+               </div>
+
+               <div class="statistics">
+                    <div class="stat-container">
+                        <h5 class="rate">Crop Production</h5>
+                        <div class="def">
+                            <h6>Rice</h6>
+                            <p class="p">85%</p>
+                            <div class="rice"></div>
+                            <br>
+                            <h6>Corn</h6>
+                            <p class="p">70%</p>
+                            <div class="corn"></div>
+                            <br>
+                            <h6>Tomato</h6>
+                             <p class="p">50%</p>
+                            <div class="tom"></div>
+                            <br>
+                            <h6>Others</h6>
+                            <p class="p">45%</p>
+                            <div class="others"></div>
+                        </div>
+                    </div>
+
+                <div class="circle">
+                    <h5>Percentage Rate</h5>
+                    <div class="bar">
+                        <div class="year">
+                        <h7 class="years">2023</h7>
+                        <div class="three"></div>
+                        <h7 class="years">2024</h7>
+                        <h7 class="years">2025</h7>
+                        <h7 class="years">2026</h7>
+                        </div>
+                    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
